@@ -1,0 +1,168 @@
+header{ background:#fff; border-bottom:1px solid #ccc; min-height:110px; clear:both;}
+
+.search-form {display: block;float: left;margin: 33px 0 0;width: 100%;padding: 0 0 0 165px;}
+.search-form form {position: relative;}
+.search-form input {background: none repeat scroll 0 0 #f9f9fb;border: medium none;border-radius: 5px;padding: 9px 48px;width: 100%;}
+.search-form i {color: #aaa;font-weight: lighter;left: 22px;position: absolute;top: 14px;}
+.logo{ top: 35px;left: 15px;font-size:24px;font-family: 'Roboto Slab', serif;text-align: left;letter-spacing: 1.33px;color: #009780;opacity: 1; position:absolute;}
+.log:hover{ color: #009780; text-decoration:none; line-height:32px;}
+
+
+.maincontentsection{ width:100%; clear:both; overflow:hidden; padding:35px 0; }
+
+.pagetitle { clear:both; overflow:hidden; border-bottom: 1px solid #ccc; padding-bottom:20px;}
+.pagetitle h2{ font-family: 'Roboto', sans-serif; font-size:22px; color:#202025; margin:0; padding:0; font-weight:500;}
+
+.john-front{ display:block; position:relative; min-height:120px; margin:35px 0;}
+.johnimg{ position:absolute; top:0; left:0; width:120px;}
+.johnimg img{ width:100%; height:auto; display:block;}
+
+.johnfortdetails{ width:100%; clear:both; overflow:hidden; padding:0 0 0 170px;}
+.johnfortdetails h1 { font-family: 'Roboto', sans-serif; font-size:22px; color:#202025; margin:15px 0 10px; padding:0; font-weight:500;}
+
+.johnfortdetails p{ color:#202025; font-size:16px; margin:0; padding:0;}
+
+.johndetails{ overflow:hidden; margin:0 0 50px; width:100%;}
+.johndetails h1 { font-family: 'Roboto', sans-serif; font-size:22px; color:#202025; margin:15px 0 10px; padding:0; font-weight:500;}
+
+.johndetails p{ color:#202025; font-size:16px; margin:0; padding:0;}
+.datetimeList{ overflow:hidden; clear:both; margin-bottom:15px;}
+.datetimeList .calendar{ width: 220px;height: 55px;background: #EBFFEC 0% 0% no-repeat padding-box;border-radius: 7px;margin-right:20px;opacity: 1; display:block; float:left; font-size:21px; color:#4D9282; font-weight:600; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s;}
+.datetimeList .time{ width: 180px;height: 55px;background: #F22B61 0% 0% no-repeat padding-box;border-radius: 7px;opacity: 1; display:block; float:left; font-size:21px; color:#fff; font-weight:600; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s;}
+
+.datetimeList .calendar:hover{ background:#4D9282; color:#fff; text-decoration:none; transition: 0.3s; text-align:center;}
+.datetimeList .time:hover{ background:#d31146; color:#fff; text-decoration:none; transition: 0.3s; text-align:center;}
+
+.formSection{ width:100%; clear:both; overflow:hidden; margin:0; padding:30px 0;}
+
+
+.formsecTopTitle {clear: both;overflow: hidden;border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.innertitle   {clear: both;overflow: hidden;padding-bottom: 20px;}
+.formsecTopTitle h3, .innertitle h3{ font-family: 'Roboto', sans-serif; font-size:22px; color:#202025; margin:0; padding:0; font-weight:500;}
+
+.checkarea{ width:100%; clear:both; overflow:hidden; position:relative; padding:15px 0 25px;}
+.checkinner{}
+.checklist{ width:25%; float:left;}
+input[type=checkbox]:not(old), input[type=radio   ]:not(old){ width     : 2em;margin    : 0;padding   : 0;font-size : 1em;opacity   : 1;}
+input[type=checkbox]:not(old) + label, input[type=radio   ]:not(old) + label{display : inline-block;margin-left  : 2em;line-height  : 1.5em;width :90%;height: 50px;position:relative;}
+input[type=checkbox]:not(old) + label > span, input[type=radio   ]:not(old) + label > span{display : inline-block;width: 100%;height: 50px;margin: 0.25em 0.5em 0.25em 0.25em;border: none;border-radius    : 7px;box-shadow: 0px 2px 10px #5D91FF26; background:#fff; font-size:21px; color:#202025;line-height:46px;padding:0 0 0 45px;vertical-align   : bottom;font-weight:600;}
+input[type=checkbox]:not(old):checked + label > span, input[type=radio   ]:not(old):checked + label > span{ background:#4D9282; color:#fff;  cursor:pointer;}
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span span{display: block;width: 20px;height: 20px;margin: 0;border :1px  solid #ccc;border-radius    : 100%;background:#fff;background-size:20px;position:absolute;left:20px;top:20px;  cursor:pointer;}
+input[type=checkbox]:not(old):checked + label > span:before{background: url(assets/img/select.png) no-repeat center center;display : block;width : 1em;color : rgb(153,204,102);font-size   : 0.875em;line-height : 1em;text-align  : center;text-shadow : 0 0 0.0714em rgb(115,153,77);font-weight : bold;}
+input[type=radio]:not(old):checked +  label > span > span{display: block;width : 20px;height : 20px;margin: 0;border:1px  solid #ccc;border-radius: 100%;background: url(assets/img/select.png) no-repeat center center  ;background-size:20px;position:absolute;left:20px;top:20px;color:#fff;cursor:pointer;}
+.uploadcol input[type=radio]:not(old):checked +  label > span > span{display : block;width : 20px;height: 20px;margin : 0;border:1px  solid #ccc;border-radius: 100%;background: url(assets/img/upload.png) no-repeat center center #fff;  ;background-size:15px;position:absolute;left:20px;top:20px;color:#fff;cursor:pointer;}
+
+.school-Inner{ width:100%; clear:both; overflow:hidden; margin-bottom:35px;}
+.schooltextarea{ width:75%; float:left;}
+.schooltextarea textarea{background:#FFFFFF ;border: 1px solid #202025;border-radius: 7px;opacity: 1; height:180px; width:100%; padding:12px; color:#202025; font-size:21px;}
+.school-action{ width:25%; float:left; padding:0 15px}
+.school-action a.savebtn{ width: 180px;height: 55px;background: #F22B61;box-shadow: 0px 2px 10px #5D91FF26; opacity: 1;border-radius: 7px;opacity: 1; display:block; float:left; font-size:21px; color:#fff; font-weight:600; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s; margin:0 0 15px}
+
+.school-action a.savebtn:hover  { background:#d31146;  text-decoration:none; transition: 0.3s; text-align:center; color:#fff;}
+.school-action a.uploadbtn{ background:#fff;width: 180px;height: 55px; box-shadow: 0px 2px 10px #5D91FF26;opacity: 1;border-radius: 7px;opacity: 1; display:block; float:left; font-size:21px; color:#4D9282; font-weight:600; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s; }
+.school-action a.uploadbtn:hover  { background:#4D9282;  text-decoration:none; transition: 0.3s; text-align:center; color:#fff;}
+.select-css { display: block;font-size: 20px;font-family: sans-serif;font-weight: 700;color: #202025;padding: .6em 1.4em .5em .8em;width: 100%;max-width: 100%; box-sizing: border-box;margin: 0;border: 1px solid #202025;border-radius: .5em;-moz-appearance: none;-webkit-appearance: none;appearance: none;height:76px;background-color: #fff;background: url(assets/img/selecticon.jpg) #fff no-repeat 98% 50%;background-position: right .7em top 50%, 0 0;background-size: .9em auto, 100%;}
+.select-css::-ms-expand {display: none;}
+.select-css:hover {border-color: #888;}
+.select-css:focus {border-color: #aaa;box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);box-shadow: 0 0 0 3px -moz-mac-focusring;color: #222; outline: none;}
+.select-css option {font-weight:normal;}
+.selectarea{ width:100%; margin:30px 0 35px;}
+
+.numberofpeople{}
+.numberofpeople  h3, .pricesforyou h3{ font-family: 'Roboto', sans-serif; font-size:22px; color:#202025; margin:0; padding:0; font-weight:500;   border-bottom: 1px solid #ccc;
+padding-bottom: 10px; margin-bottom:15px;}
+.numberofpeople ul{ margin:0; padding:0; text-align:center; width:100%}
+.numberofpeople ul li { display:block; float:left; list-style:none; width:33.333%; padding:10px;}
+.numberofpeople ul li a {background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 2px 10px #5D91FF26;border-radius: 7px;opacity: 1;display: flex;height: 100px;font-size: 24px;font-weight: 700;color: #202025;vertical-align: middle;text-align: center;align-items: center;}
+
+
+.numberofpeople ul li a span{ display:block; width:100%; text-align:center;}
+
+.numberofpeople ul li a:hover{ background: #4D9282 0% 0% no-repeat padding-box; color:#fff; text-decoration:none;} 
+
+.pricelistInner{  box-shadow: 0px 2px 10px #5D91FF26; width:100%;background: #fff;   border-radius: 7px; padding:19px 20px; overflow:hidden; margin-top:10px; margin-bottom:7px;}
+.pricelistInner:hover{  box-shadow: 0px 2px 10px #5D91FF26; width:100%;background: #4D9282;   border-radius: 7px;   overflow:hidden;}
+
+
+.pricelistLt, .pricelistRt{ float:left; width:50%; overflow:hidden;}
+.pricelistLt span, .pricelistRt span{ font-size:18px; color:#202025; font-weight:600;}
+.pricelistRt span{ float:right;}
+.pricelistInner:hover .pricelistLt span,  .pricelistInner:hover .pricelistRt span{ color:#fff;}
+.scrollbar{float: left;height: 235px;width: 100%;overflow-y: scroll;padding:0 5px;}
+.force-overflow{min-height: 265px;}
+#wrapper{width: 100%;margin: auto;}
+#style-4::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);background-color: #F5F5F5;}
+#style-4::-webkit-scrollbar{width: 5px;background-color: #F5F5F5;}
+#style-4::-webkit-scrollbar-thumb{background-color: #000000;border: 2px solid #555555;}
+.gengerlist .checklist {width: 33.333%;float: left;margin:0 0 15px;}
+.gengerrow h3{ font-family: 'Roboto', sans-serif; font-size:22px; color:#202025;   font-weight:500;      padding-bottom: 0; margin-top:32px;}
+.margintop{ margin-top:35px;}
+
+.inputCol{ margin-bottom:30px;}
+.inputCol h4{ font-size:18px; color:#202025; display:block; margin:0  0 10px; padding:0; font-weight:600; }
+.inputCol input{height: 78px; display:block; width:100%;padding:0 12px;font-size:16px; color:#202025;border: 1px solid #202025;border-radius: 5px;opacity: 1;}
+
+.inputbtn a{ width: 250px;height: 55px; box-shadow: 0px 2px 10px #5D91FF26;opacity: 1;border-radius: 7px;opacity: 1; display:block;   font-size:16px; color:#fff; font-weight:400; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s; background:#F22B61; margin:25px auto;}
+.inputbtn a:hover{background:#d31146; color:#fff; text-decoration:none; transition: 0.3s; text-align:center;}
+
+.copylinkinner{ height: 78px;display: block;width: 100%;padding: 0 0;font-size: 16px;color: #202025;border: 1px solid #202025;border-radius: 5px;opacity: 1;background:#fff;overflow:hidden; position:relative;}
+.copylinkinner input{height: 78px;display: block;width: 100%; border:none; padding:0 12px; font-size:16px; color:#202025}
+.copylinkinner a{ background:#f1f1f8; color:#202025; text-decoration:none; width:130px; height:78px; line-height:70px; position:absolute; top:0; right:0; text-align:center;}
+
+.sociallinks{}
+.sociallinks ul{ width:100%; text-align:center; margin:10px 0 30px; padding:0;}
+.sociallinks ul li{ display:inline-block; text-align:center; list-style:none;}
+.sociallinks ul li a{ display:block;}
+
+
+.boxtext{ margin-bottom:35px;}
+.boxtext p{ font-size:16px; }
+
+.pBox{ width:100%; clear:both;}
+.pBox h1 {font-family: 'Roboto', sans-serif;font-size: 22px;color: #202025;margin: 15px 0 10px;padding: 0;font-weight: 500;}
+
+.typeofpost input[type="checkbox"]:not(old) + label > span, .typeofpost input[type="radio"]:not(old) + label > span{ height:80px; line-height:80px;}
+
+.typeofpost input[type="checkbox"]:not(old) + label > span, .typeofpost input[type="radio"]:not(old) + label > span span,
+.typeofpost input[type="radio"]:not(old):checked + label > span > span {   top: 37px;cursor: pointer;}
+.typeofpost .scrollbar {height: 320px;}
+.typeofpost  .checklist {margin: 0 0 10px;}
+
+.getstartedcol{ width:100%; clear:both; overflow:hidden; padding:15px 0;}
+.getstartedcol p{ font-size:18px;}
+.getstartedbtn{ width: 180px;height: 55px; box-shadow: 0px 2px 10px #5D91FF26;opacity: 1;border-radius: 7px;opacity: 1; display:block;   font-size:16px; color:#fff; font-weight:400; font-family: 'Roboto', sans-serif; text-align:center; line-height:55px; transition: 0.3s; background:#F22B61; margin:0 ;}
+.getstartedbtn:hover{background:#d31146; color:#fff; text-decoration:none; transition: 0.3s; text-align:center;}
+
+.studyrow{ padding-top:25px;}
+.studyrow h3{font-family: 'Roboto', sans-serif;font-size: 22px;color: #202025;margin: 0;margin-bottom: 0px;padding: 0;padding-bottom: 0px;font-weight: 500;border-bottom: 1px solid #ccc;padding-bottom: 10px;margin-bottom: 15px;}
+.redbtngrup{ width:100%; padding:15px 0; }
+.redbtngrup a:first-child{ margin-right:20px;}
+
+.mr-b-20{ margin-bottom:20px;}
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}

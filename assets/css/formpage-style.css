@@ -1,0 +1,110 @@
+.bg1{ background: #EAF3F1; }
+.formpages{ background: #EAF3F1; background-image:url(../images/img-1.png); background-position:bottom right;  background-repeat:no-repeat;  }
+.formpages header{ width:100%; clear:both; overflow:hidden; position:relative; background:#fff; border-bottom:1px solid #ccc; text-align:center; padding:30px 0;}
+.formpages header h3{ font-size:24px; margin:0; padding:0 15px; display:inline-block; }
+
+.closebtn{ display:block; position: absolute; right:50px; top:43px; }
+
+.sl-btn {min-width: 180px; height: 50px;background: #F22B61;box-shadow: 0px 2px 10px #5D91FF26; opacity:1;border-radius: 7px;opacity: 1; display:inline-block;  font-size:18px; color:#fff; font-weight:600; font-family: 'Roboto', sans-serif; text-align:center; line-height:50px; transition: 0.3s; margin:0 0;}
+.sl-btn:hover  { background:#d31146;  text-decoration:none; transition: 0.3s; text-align:center; color:#fff;}
+
+
+.contentsectionheader{ display:block; width:100%; padding:30px 0; }
+.contentsectionheader h4{font-family: 'Roboto Slab', serif; font-size:26px; letter-spacing: 1.33px;color: #172017;}
+
+.siginupcontentsection {width: 100%;clear: both;overflow: hidden;display: flex;position: relative;vertical-align: middle;align-items: center; padding-bottom:120px }
+.signupformInner{ width:100%; max-width:700px; margin:0 auto; }
+.signupformInner h2{ font-family: 'Playfair Display', serif; font-size:54px; color: #202025; font-weight:700; margin:0 0 40px; padding:0;}
+.signupformInner h2 span{ font-size:16px; font-family: 'Roboto', sans-serif; display:block; clear:both; font-weight:400;}
+.forminner{ width:100%; clear:both; overflow:hidden; position:relative; border: 1px solid #E5E5E5;border-radius: 8px;}
+.forminner input{ display:block; width:100%; height:48px; background:#fff; border:none; padding:0 75px 0 15px; font-size:18px; color:#202025;}
+.forminner input.signupbtn{ display:block; width:64px; background:#009A7F  url(../images/searchbtn.png) no-repeat center center; background-size:20px; position:absolute; top:0; right:0; z-index:999; font-size:0px; padding:0;}
+.forminner input.signupbtn:hover{ background:#F22B61 url(../images/searchbtn.png) no-repeat center center;  background-size:20px;}
+
+
+.btn-group-row{ width:100%; text-align:center; padding:25px 0; margin:20px auto 50px; }
+.btn-group-row button{ border:none; display:inline-block; margin:0 10px;}
+
+
+.modal-dialog {max-width: 700px;margin:  5%   auto;}
+.modal-content {background-color: #E9F3F1;outline: 0;}
+
+
+#MakeVoucher .modal-dialog, #SendVoucher .modal-dialog, #MakeRefund .modal-dialog{max-width: 900px;margin:5%   auto;}
+#MakeVoucher .modal-body, #SendVoucher .modal-body, #MakeRefund .modal-body{ padding:0;}
+
+.popupinner{ width:100%; clear:both; overflow:hidden; margin:0; padding:35px 0 ; background:url(../images/pop-1.png) no-repeat left bottom; height:100%; background-size:70%; min-height:450px; position:relative;}
+.close { position:absolute; top:0; right:0; z-index:999}
+
+.popuprt{ float:right; width:60%; padding-right:15px;}
+.popuprt  h2{ font-family: 'Playfair Display', serif; font-size:32px; color: #202025; font-weight:700; margin:0 0 20px; padding:0;}
+.popuprt h2 span{ font-size:16px; font-family: 'Roboto', sans-serif; display:block; clear:both; font-weight:400;}
+
+.inputinnr{ width:100%; clear:both; margin:0 0 22px;}
+.inputinnr p{ margin:0; padding:0;}
+.inputinnr input, .inputinnr textarea, .inputinnr select{ display:block; width:100%; height:48px; border-radius:8px; padding:0 12px; color:#202025; font-size:18px; border:1px solid #202025;}
+.inputinnr textarea.select-css{min-height: 180px}
+.inputbtnarea p{ font-size:16px; color:#202025; margin:25px 0 0; padding:0;}
+
+.titlesection{ width:100%; clear:both; overflow:hidden; padding:35px 0;}
+.titlesection h4{font-family: 'Playfair Display', serif; font-size:50px; color: #202025; font-weight:700; margin:0 0 20px; padding:0; float:left;}
+.startlink{ font-family: 'Playfair Display', serif; font-size:25px; color: #202025; font-weight:700; margin:30px 0; padding:0; float:right;}
+.startlink:hover{ color:#F22B61; text-decoration:none;}
+
+
+.brandssection{ background:url(../images/img-2.jpg) no-repeat left bottom; padding: 0 0  150px;}
+.brandsinner{max-width:500px; width:100%; margin:0 auto 50px; }
+.brandsbox{ width:100%; padding:35px; overflow:hidden;}
+.brandswhitebox{ background:#fff;} 
+
+.btnlist ul{ margin:15px 0 20px; padding:0; text-align:center; width:100%; overflow:hidden;}
+.btnlist ul li{ display:block; list-style:none; padding:5px; width:50%; float:left;}
+/*.btnlist ul li:first-child{ width:100%;}*/
+.btnlist ul li a{ display:block; width:100%; font-weight:400; font-size:15px; line-height:78px; height:78px;}
+
+.skiplink{ display:block; font-size:14px; color: #202025; text-decoration:none;}
+.skiplink:hover{ display:block; font-size:14px; color: #F22B61; text-decoration:none;}
+
+.brandsbox h3{font-family: 'Playfair Display', serif; font-size:28px; color: #202025; font-weight:700; margin:0 0 20px; padding:0; float:left;}
+
+.inputbtnarea .savebtn{ display:block; margin:0 auto;}
+
+
+.navtabs{ display:block; width:100%; clear:both; text-align:center; margin:55px 0 ; padding:0; border:none;}
+.navtabs li{ display:inline-block; line-height:none; text-align: center; padding:0 30px}
+.navtabs li a{font-family: 'Playfair Display', serif; font-size:28px; color: #151515; opacity: 0.5; border-bottom:2px solid #EAF3F1; padding:0 10px;}
+.navtabs li a.active{font-family: 'Playfair Display', serif; font-size:28px; color: #151515; opacity:1;  border-bottom:2px solid #151515; }
+
+.tabinner{ background:#fff; padding:35px; min-height:300px; overflow:hidden; margin-bottom:30px;}
+
+.imgcol{ float:left; width:100%; max-width:240px; min-height:240px; background:transparent; margin-right:40px;}
+
+.detailscol{ float:left;}
+.detailscol h1{font-family: 'Playfair Display', serif; font-size:36px; color: #202025; font-weight:700; margin:0 0 10px; padding:0; float:left;}
+.detailscol  h3{ font-size:16px; color:#999; margin:0 0 20px; padding:0;}
+.detailscol  h3 i{ color:#009780}
+
+.detailscol  h4{ font-size:24px; color:#202025; margin:0; padding:0;}
+.detailscol  h4 span{ color:#999; text-decoration:line-through; font-size:20px;}
+
+.attachlinkarea{ width:100%; padding:25px 0 0; clear:both; overflow:hidden;}
+.attachlinkarea h2{font-family: 'Playfair Display', serif; font-size:36px; color: #151515; margin:0 0 15px; padding:0;}
+.attachlinkarea h6{ border:4px solid  #707070; padding:15px; font-size:18px; color:#707070}
+
+.altbtnlsit{ width:100%; clear:both; overflow:hidden;}
+.altbtnlsit ul{ display:block; text-align: center; width:100%; margin:30px 0 0; padding:0;}
+.altbtnlsit ul li{ display:inline-block; list-style:none; text-align:center; margin:0 10px;}
+.altbtnlsit ul li a, .altbtnlsit ul li button{ font-size:16px; font-weight:400; line-height:70px; height:70px; border:none;}
+
+.greenbtn{ background:#009780;}
+.greenbtn:hover{ background:#03836f;}
+
+.modal-body .imgcol{ float:left; width:100%; max-width:300px; min-height:300px; background:#999; margin-right:40px;}
+.modal-body .tabinner {background: #fff;padding: 35px;min-height: 300px;overflow: hidden;margin-bottom: 0;}
+
+.paymentcol{ width:280px; margin:200px auto 0; text-align:center; overflow:hidden; clear:both;}
+.paymentcol h3{font-family: 'Playfair Display', serif; font-size:64px; color: #151515; margin:0 0 15px; padding:0; font-weight:700;}
+.paymentcol h4{font-family: 'Playfair Display', serif; font-size:34px; color: #151515; margin:0 0 15px; padding:0; font-weight:700;}
+.paymentcol h4 i{ font-weight:400;}
+
+.tabinner .close { position:absolute; top:15px; right:15px; z-index:999}

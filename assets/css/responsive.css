@@ -1,0 +1,109 @@
+
+@media (min-width:992px) and (max-width:1199px) {
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span{ font-size:17px;}
+.formpages{ background-size:400px}
+.imgcol {max-width: 300px;min-height: 300px;}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span{ font-size:17px;}
+.schooltextarea {width: 65%;}
+.school-action {width: 35%;}
+.gengerlist .checklist {width: 50%;float: left;margin: 0 0 15px;}
+.pBox {width: 100%;clear: both;text-align: center;margin: 0 0 45px;}
+.formpages{ background-size:350px}
+.siginupcontentsection { min-height: 200px;   padding: 50px 0 120px;}
+
+.titlesection h4{ font-size:36px;}
+.startlink {margin: 0 0;padding: 0;float: right;}
+.imgcol {max-width: 100%;min-height: 300px;margin:0 0 25px;}
+.detailscol {float: left;width: 356px;}
+
+}
+
+@media (min-width:481px) and (max-width:767px) {
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span{ font-size:17px;}
+.schooltextarea {width: 100%;}
+.school-action {width: 100%; padding:15px 0;}
+.school-action a.savebtn{ margin-right:20px}
+.gengerlist .checklist {width: 50%;float: left;margin: 0 0 15px;}
+.pBox {width: 100%;clear: both;text-align: center;margin: 0 0 45px;}
+
+.johnimg {position: relative;top: 0;left: 0;width: 120px;margin: 0 auto;}
+.johnfortdetails {width: 100%;clear: both;overflow: hidden;padding: 0;text-align: center;}
+.johnfortdetails p br{ display:none; }
+.checklist {width: 50%;float: left;}
+.numberofpeople ul {margin: 0 0 40px;overflow: hidden;}
+.formpages{ background-size:300px}
+.siginupcontentsection { min-height: 200px;   padding: 50px 0 120px;}
+.popuprt {float: right;width: 70%;padding-right: 15px;}
+.signupformInner h2{ font-size:36px;}
+.formpages header h3 {font-size: 20px;margin: 0 0 10px;padding: 0 15px;display: inline-block;}
+
+.titlesection{ text-align:center;}
+.titlesection h4{ font-size:36px; float:none; display:block;}
+.startlink {margin: 0 auto;padding: 0;float: none;text-align: center;display: block;border: 1px solid #202025;width: 150px;border-radius: 8px;font-size: 28px;}
+.brandssection {background-size: 250px;}
+
+.imgcol {max-width: 100%;min-height: 300px;margin:0 0 25px;}
+.navtabs li { padding: 0 0;}
+.attachlinkarea h6 { word-wrap: anywhere;}
+.altbtnlsit ul li { margin: 0;}
+.altbtnlsit ul li .sl-btn {width: 160px;}
+
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span{ font-size:17px;}
+.schooltextarea {width: 100%;}
+.school-action {width: 100%; padding:15px 0;}
+.school-action a.savebtn{ margin-right:20px}
+.gengerlist .checklist {width: 100%;float: left;margin: 0 0 15px;}
+.pBox {width: 100%;clear: both;text-align: center;margin: 0 0 45px;}
+.johnimg {position: relative;top: 0;left: 0;width: 120px;margin: 0 auto;}
+.johnfortdetails {width: 100%;clear: both;overflow: hidden;padding: 0;text-align: center;}
+.johnfortdetails p br{ display:none; }
+.checklist {width: 100%;float: left;}
+.numberofpeople ul li a{ height:70px;}
+.numberofpeople ul {margin: 0 0 40px;overflow: hidden;}
+.datetimeList .calendar, .datetimeList .time{ width:100%; margin-bottom:10px;}
+input[type="checkbox"]:not(old) + label, input[type="radio"]:not(old) + label { width: 100%;}
+input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span{ margin: 0;}
+input[type="radio"]:not(old):checked + label > span > span, input[type="checkbox"]:not(old) + label > span, input[type="radio"]:not(old) + label > span span{ top:15px;}
+.typeofpost input[type="checkbox"]:not(old) + label > span, .typeofpost input[type="radio"]:not(old) + label > span span, .typeofpost input[type="radio"]:not(old):checked + label > span > span {    top: 32px;    cursor: pointer;}
+
+.formpages{ background-size:300px}
+.siginupcontentsection { min-height: 200px;   padding: 50px 0 120px;}
+.signupformInner h2{ font-size:32px;}
+.btn-group-row button {border: none;display: inline-block;margin: 0;width: 139px;}
+.btn-group-row {width: 100%;text-align: center;padding: 0 0 25px 0;margin: 20px auto 50px;}
+.popuprt {float: right;width: 100%;padding-right: 15px;}
+.popupinner{ background:none;}
+.formpages header h3 {font-size: 20px;margin: 0 0 10px;padding: 0 15px;display: inline-block;}
+
+
+.titlesection{ text-align:center;}
+.titlesection h4{ font-size:25px; float:none; display:block;}
+.startlink {margin: 0 auto;padding: 0;float: none;text-align: center;display: block;border: 1px solid #202025;width: 150px;border-radius: 8px;font-size: 24px;}
+.brandssection {background-size: 200px;}
+.brandsbox {width: 100%;padding: 15px;overflow: hidden;}
+.btnlist ul li {display: block;list-style: none;padding: 5px 0; width: 100%;float: left;}
+.brandsbox h3{ font-size:24px;}
+
+.imgcol {max-width: 100%;min-height: 300px;margin:0 0 25px;}
+.navtabs li { padding: 0 0;}
+.attachlinkarea h6 { word-wrap: anywhere;}
+.altbtnlsit ul li { margin: 15px 0 0; width:100%;}
+.altbtnlsit ul li .sl-btn {width: 100%;}
+.navtabs li a, .navtabs li a.active{ font-size:18px;}
+.tabinner {padding: 15px;}
+
+
+}
+
+@media (min-width:320px) and (max-width:767px) {
+.logo {top: 15px;left: 0;position: relative;}
+.search-form {display: block;float: left;margin: 25px 0 10px;width: 100%;padding: 0;}
+.modal-body .imgcol {float: left;width: 100%;max-width: 100%;min-height: 300px;background: #999;margin-right: 0;}
+}
