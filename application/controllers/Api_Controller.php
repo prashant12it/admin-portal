@@ -31,21 +31,6 @@ class Api_Controller extends CI_Controller
         echo json_encode($responsedata);
     }
 
-    function workday()
-    {
-        $this->index();
-    }
-
-    function jobs()
-    {
-        $this->index();
-    }
-
-    function careers()
-    {
-        $this->index();
-    }
-
     public function getCompanies(){
         $companyArr = $this->Common_Model->getAllCompanies();
         if (!empty($companyArr)) {
